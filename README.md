@@ -1,4 +1,5 @@
-> ### Pemrograman Permainan - AA
+# Web Pemrograman Permainan
 
-- Muhammad Arya Java
-- 1811502754
+Web ini adalah kumpulan video materi dari matakuliah Pemrograman Permainan di [Universitas Budi Luhur](https://www.budiluhur.ac.id/).
+
+>1811502754 - Muhammad Arya Java

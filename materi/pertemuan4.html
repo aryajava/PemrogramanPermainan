@@ -33,11 +33,11 @@
       <input type="hidden" id="page" value="4" />
       <!-- Header -->
       <include src="../template/header.html"></include>
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center border-bottom">
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb fs-5">
             <li class="breadcrumb-item">
-              <a href="../" class="text-muted text-decoration-none lh-1">
+              <a href="../" class="link-primary text-decoration-none lh-1">
                 <span class="me-2"><i class="bi bi-house-fill"></i></span>Home</a
               >
             </li>
@@ -47,20 +47,26 @@
           </ol>
         </nav>
       </div>
-      <div class="row align-items-center mb-5">
+      <div class="row align-items-center my-5">
         <!-- Content -->
         <div class="col-lg-10 d-block order-2">
           <div class="mx-auto">
-            <p class="text-center lh-1 fs-4">
-              <b>Materi Pertemuan 04</b>
-            </p>
-            <p class="text-center lh-1">Input Mouse, Input Keyboard, dan Input Manager.</p>
+            <p class="text-center lh-1 fs-4">Input Mouse, Input Keyboard, dan Input Manager</p>
+          </div>
+          <div class="mx-auto">
+            <p class="text-center lh-1 fs-6">1811502754 - Muhammad Arya Java</p>
           </div>
           <div class="mx-auto mt-5">
             <p class="text-center lh-1 fs-6">
-              <b>Video</b>
+              <b class="border-bottom border-1 border-dark">Video Tutorial</b>
+            </p>
+            <p class="text-center lh-1 fs-6 mt-0 pt-0">
+              <a href="https://youtu.be/thZ8r3jbgvY" class="link-primary text-decoration-none lh-1"
+                ><span class="me-2"><i class="bi-link"></i></span>Link Youtube</a
+              >
             </p>
           </div>
+
           <div class="d-flex justify-content-center mb-5">
             <iframe
               width="854"
@@ -73,12 +79,15 @@
           </div>
           <div class="mx-auto mt-5">
             <p class="text-center lh-1 fs-6">
-              <b>Source Code</b>
+              <b class="border-bottom border-1 border-dark">Source Code</b>
             </p>
           </div>
           <div class="d-block justify-content-around mb-5">
             <div class="row">
               <div class="col-lg-6 zo-effect">
+                <p class="text-center lh-1 fs-6">
+                  <b class="border-bottom border-1 border-dark">InputKeyboard.cs</b>
+                </p>
                 <img
                   src="../imgs/codes/MP04_InputKeyboard.png"
                   class="img-fluid img-thumbnail float-start"
@@ -86,6 +95,9 @@
                 />
               </div>
               <div class="col-lg-6 zo-effect">
+                <p class="text-center lh-1 fs-6">
+                  <b class="border-bottom border-1 border-dark">InputMouse.cs</b>
+                </p>
                 <img
                   src="../imgs/codes/MP04_InputMouse.png"
                   class="img-fluid img-thumbnail float-end"

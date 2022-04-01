@@ -7,3 +7,33 @@
   right: 20px;
   display: none;
 }
+.zo-effect:hover {
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+  z-index: 2;
+}
+div[title] .zo-effect:hover {
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  -webkit-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+  z-index: 2;
+}
+div[title]:hover::before {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}

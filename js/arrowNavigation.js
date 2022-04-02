@@ -4,11 +4,13 @@ if (urutan != undefined || urutan != null) {
   document.onkeyup = KeyCheck;
   function leftarrowpressed() {
     let kembali = urutan - 1;
-    location.href = "pertemuan"+kembali+".html";
+    if(kembali < 2) location.href = "../";
+    else location.href = "pertemuan"+kembali+".html";
   }
   function rightarrowpressed() {
     let selanjutnya = urutan + 1;
-    location.href = "pertemuan" +selanjutnya +".html";
+    if(selanjutnya > 13) location.href = "../";
+    else location.href = "pertemuan" +selanjutnya +".html";
   }
   function KeyCheck(e) {
     var KeyID = window.event ? event.keyCode : e.keyCode;
